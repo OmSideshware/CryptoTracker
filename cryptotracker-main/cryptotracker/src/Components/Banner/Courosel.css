@@ -1,0 +1,24 @@
+.carousal{
+    height: 50%;
+    padding-top: 75px;
+    background-color: transparent;
+
+}
+
+.courosel_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    text-transform: capitalize;
+    color: white;
+    /* background-color: rgb(91, 94, 97); */
+    
+}
+.courosel_item > span{
+    /* background-color: rgb(91, 94, 97);    */
+}
+
+
+
+

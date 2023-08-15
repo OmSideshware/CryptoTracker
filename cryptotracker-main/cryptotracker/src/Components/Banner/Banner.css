@@ -1,0 +1,63 @@
+/* .banner{
+    
+    background-image: url('https://raw.githubusercontent.com/Siva-Tejaa/Projects-Data/main/CryptoTracker%20Banner.jpg');
+    
+} 
+
+ .bannerContent{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25;
+    justify-content: space-around;
+
+}  */
+
+
+.banner {
+    width: 100%;
+    height: 500px;
+    background-image: url('https://raw.githubusercontent.com/Siva-Tejaa/Projects-Data/main/CryptoTracker%20Banner.jpg');
+    color: white;
+    padding-top: 30px;
+    background-color: rgb(27, 46, 61);
+    text-align: center;
+    
+  }
+  .banner_title{
+   
+    padding-top: 30px;
+    font-size: 50px;
+    background-color: transparent;
+  }
+  .banner_subtitle{
+   
+    color: rgb(210, 201, 201);
+    /* height: 40%; */
+    padding-top: 10px;
+    background-color: transparent;
+    padding-bottom: 75px;
+  }
+
+
+/* .banner {
+    width: 100%;
+    height: 500px;
+    background-image: url('https://raw.githubusercontent.com/Siva-Tejaa/Projects-Data/main/CryptoTracker%20Banner.jpg');
+    color: white;
+    padding-top: 30px;
+   
+
+  }
+  .banner_title{
+    padding-top: 30px;
+    font-size: 50px;
+    background-clip: text;
+   -webkit-background-clip: text;
+    background-color: transparent;
+  }
+  .banner_subtitle{
+    color: rgb(210, 201, 201);
+   
+    padding-bottom: 30px;
+  }  */

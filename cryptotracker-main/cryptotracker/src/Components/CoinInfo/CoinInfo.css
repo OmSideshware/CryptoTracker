@@ -1,0 +1,35 @@
+.coin-info{
+    padding-top: 10px;
+    padding-bottom: 30px;
+   
+  }
+
+  .check{
+    padding-left: 25%;
+  }
+
+  .graph_buttons{
+    padding-left: 30%;
+  }
+
+  .graph_btn{
+    padding: 5px;
+    margin: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+  }
+  .graph_btn_active{
+    padding: 5px;
+    margin: 10px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    background-color: silver;
+  }
+  .graph_btn:hover{
+    color: black;
+    background-color: gold;
+    border: none;
+  }

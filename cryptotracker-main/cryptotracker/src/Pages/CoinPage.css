@@ -1,0 +1,47 @@
+.coin_page{
+    background-color: rgb(27, 46, 61);
+    color: white;
+    line-height: 30px;
+    /* width: 80%; */
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* justify-content: space-around; */
+  }
+  .width{
+    width: 100%;
+  }
+  .top_bar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25;
+    border-right: "2px solid grey";
+  }
+  .coinpage_image{
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+  }
+  .coin_description{
+    margin-top: 10px;
+  }
+  .market_data{
+  
+  }
+  .line{
+    /* width: 80%; */
+    margin: 10px;
+  }
+  .chart{
+  
+  }
+  .load_circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 46, 61);
+    padding-top: 150px;
+    padding-bottom: 400px;
+  }

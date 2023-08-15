@@ -1,0 +1,143 @@
+.coinstable {
+    background-color: rgb(13, 25, 35);
+    /* background-color: rgb(27, 46, 61); */
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 4em;
+    padding-left: 14rem;
+    align-items: center;
+    /* max-width: 90%; */
+    /* overflow: scroll; */
+  }
+  .table_scroll {
+    overflow-x:auto;
+  }
+  .coinstable_title {
+    padding-left: 17rem;
+    margin-bottom: 20px;
+  }
+  .bar {
+    /* align-items: center; */
+    align-content: center;
+    color: aqua;
+  }
+  .coinstable_logo {
+    height: 40px;
+    align-content: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* margin: 10px; */
+  }
+  .coin_data{
+    margin-top: 10px;
+  }
+  .dat:hover {
+    background-color: rgb(27, 46, 61);
+  }
+  .table_logo {
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    justify-content:baseline;
+    /* justify-items: baseline; */
+  }
+  table.all-tables {
+    /* display: block; */
+    width: 80%;
+    /* max-width: 49%; */
+    border-collapse: collapse;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* display: block; */
+    /* overflow-x: auto; */
+  
+    /* overflow:scroll; */
+  
+    /* word-wrap: break-word; */
+    /* min-width: 30%; */
+  }
+  table.all-tables td,
+  table.all-tables th {
+    border: 1px solid #dddddd;
+    padding: 5px 2px;
+    text-align: center;
+  }
+  table.all-tables tbody td {
+    font-size: 15px;
+    padding: 10px;
+  }
+  table.all-tables thead th {
+    font-size: 20px;
+    font-weight: bold;
+    /* text-align: center; */
+    padding: 10px;
+  }
+  
+  .img-map {
+    width: 80%;
+    height: 25px;
+  }
+  
+  .loading_bars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  
+  
+  
+  /* -------------TFoot------------- */
+  table.blueTable tfoot {
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #FFFDFD;
+    background: -moz-linear-gradient(top, #fffdfd 0%, #fffdfd 66%, #FFFDFD 100%);
+    background: -webkit-linear-gradient(top, #fffdfd 0%, #fffdfd 66%, #FFFDFD 100%);
+    background: linear-gradient(to bottom, #fffdfd 0%, #fffdfd 66%, #FFFDFD 100%);
+  }
+  
+  .inactive-btn{
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin: 2px;
+    border: none;
+  }
+  table.blueTable tfoot .links button[disabled]{
+    /* border: 1px solid #999999; */
+    background-color: #7995a8;
+    color: #666666;
+  }
+  .active-btn{
+    /* display: inline-block; */
+    /* backgroundColor: #0194f6; */
+    /* background-color: #0194f6; */
+    background: #1C6EA4;
+  
+    color: #FFFFFF;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin: 2px;
+    border: none;
+  }
+  
+  .foot__btn{
+    margin: 8px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  .foot__btn__disable{
+    margin: 8px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    pointer-events: none;
+    background-color:rgb(174, 169, 169);
+  }
